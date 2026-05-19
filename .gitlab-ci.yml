@@ -1,0 +1,22 @@
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+# Определяем список стадий
+stages:
+  - build
+  - start
+
+# Первая стадия: Сборка
+build-job:
+  stage: build
+  image: alpine:latest
+  script:
+    - echo "сборка выполнена"
+
+# Вторая стадия: Запуск
+start-job:
+  stage: start
+  image: alpine:latest
+  script:
+    - echo "приложение запущено"

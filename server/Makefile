@@ -1,0 +1,28 @@
+include .env
+export
+
+export PROJECT_ROOT=$(shell pwd)
+
+env-up:
+	@docker compose up -d todoapp-postgres
+
+env-down:
+	@docker compose down todoapp-postgres
+
+env-cleanup:
+	@read -p "Очистить все volume файлы окружения? Опасность утери данных. [y/N]: " ans; \
+	if [ "$$ans" = "y" ]; then \
+		docker compose down todoapp-postgres && \
+		rm -rf out/postgres_data && \
+		echo "Файлы окружения очищены"; \
+	else \
+		echo "Очистка окружения отменена"; \
+	fi
+
+run:
+	@export LOGGER_FOLDER=${PROJECT_ROOT}/out/logs && \
+	go mod tidy && \
+	go run cmd/app/main.go
+
+generate:
+	@go generate server/ent
