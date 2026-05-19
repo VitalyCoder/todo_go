@@ -9,10 +9,10 @@ import (
 	"log"
 	"reflect"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/migrate"
+	"github.com/VitalyCoder/todo_go/ent/migrate"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/todo"
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/user"
+	"github.com/VitalyCoder/todo_go/ent/todo"
+	"github.com/VitalyCoder/todo_go/ent/user"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"

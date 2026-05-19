@@ -3,7 +3,7 @@
 package user
 
 import (
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/predicate"
+	"github.com/VitalyCoder/todo_go/ent/predicate"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

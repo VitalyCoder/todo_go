@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent"
+	"github.com/VitalyCoder/todo_go/ent"
 )
 
 // The TodoFunc type is an adapter to allow the use of ordinary

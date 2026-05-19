@@ -1,4 +1,4 @@
-module 95.174.104.37/gitlab/vifrolov/todo_app
+module github.com/VitalyCoder/todo_go
 
 go 1.26.1
 

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	core_logger "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/logger"
+	core_logger "github.com/VitalyCoder/todo_go/internal/core/logger"
 
-	core_http_middleware "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/transport/http/middleware"
+	core_http_middleware "github.com/VitalyCoder/todo_go/internal/core/transport/http/middleware"
 
 	"go.uber.org/zap"
 )

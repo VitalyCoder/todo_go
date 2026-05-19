@@ -5,9 +5,9 @@ package ent
 import (
 	"time"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/schema"
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/todo"
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/user"
+	"github.com/VitalyCoder/todo_go/ent/schema"
+	"github.com/VitalyCoder/todo_go/ent/todo"
+	"github.com/VitalyCoder/todo_go/ent/user"
 
 	"github.com/google/uuid"
 )

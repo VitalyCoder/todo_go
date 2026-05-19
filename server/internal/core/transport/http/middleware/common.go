@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	core_logger "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/logger"
-	core_http_response "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/transport/http/response"
+	core_logger "github.com/VitalyCoder/todo_go/internal/core/logger"
+	core_http_response "github.com/VitalyCoder/todo_go/internal/core/transport/http/response"
 
 	"github.com/google/uuid"
 	"go.uber.org/zap"

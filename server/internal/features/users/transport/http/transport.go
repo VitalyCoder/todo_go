@@ -3,7 +3,7 @@ package users_transport_http
 import (
 	"net/http"
 
-	core_http_server "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/transport/server"
+	core_http_server "github.com/VitalyCoder/todo_go/internal/core/transport/server"
 )
 
 type UsersHttpHandler struct {

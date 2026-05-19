@@ -5,11 +5,11 @@ package enttest
 import (
 	"context"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent"
+	"github.com/VitalyCoder/todo_go/ent"
 	// required by schema hooks.
-	_ "95.174.104.37/gitlab/vifrolov/todo_app/ent/runtime"
+	_ "github.com/VitalyCoder/todo_go/ent/runtime"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/migrate"
+	"github.com/VitalyCoder/todo_go/ent/migrate"
 
 	"entgo.io/ent/dialect/sql/schema"
 )

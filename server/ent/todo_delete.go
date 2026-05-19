@@ -5,8 +5,8 @@ package ent
 import (
 	"context"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/predicate"
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/todo"
+	"github.com/VitalyCoder/todo_go/ent/predicate"
+	"github.com/VitalyCoder/todo_go/ent/todo"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

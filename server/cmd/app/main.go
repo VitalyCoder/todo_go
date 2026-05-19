@@ -7,10 +7,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	core_logger "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/logger"
-	core_http_middleware "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/transport/http/middleware"
-	core_http_server "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/transport/server"
-	users_transport_http "95.174.104.37/gitlab/vifrolov/todo_app/internal/features/users/transport/http"
+	core_logger "github.com/VitalyCoder/todo_go/internal/core/logger"
+	core_http_middleware "github.com/VitalyCoder/todo_go/internal/core/transport/http/middleware"
+	core_http_server "github.com/VitalyCoder/todo_go/internal/core/transport/server"
+	users_transport_http "github.com/VitalyCoder/todo_go/internal/features/users/transport/http"
 
 	"go.uber.org/zap"
 )

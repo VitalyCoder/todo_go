@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	core_logger "95.174.104.37/gitlab/vifrolov/todo_app/internal/core/logger"
+	core_logger "github.com/VitalyCoder/todo_go/internal/core/logger"
 
 	"go.uber.org/zap"
 )

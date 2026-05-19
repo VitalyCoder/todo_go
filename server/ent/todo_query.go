@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"math"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/todo"
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/user"
+	"github.com/VitalyCoder/todo_go/ent/todo"
+	"github.com/VitalyCoder/todo_go/ent/user"
 
-	"95.174.104.37/gitlab/vifrolov/todo_app/ent/predicate"
+	"github.com/VitalyCoder/todo_go/ent/predicate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
